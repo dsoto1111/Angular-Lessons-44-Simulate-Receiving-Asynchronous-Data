@@ -1,0 +1,6 @@
+<h2>Pet Owners</h2>
+<ul>
+    <li *ngFor="let owner of owners$ | async">
+        <a><span>{{ owner.id }} </span>{{ owner.name }}</a>
+    </li>
+</ul>
